@@ -8,7 +8,7 @@
         android:id="@+id/txt_xuHuong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="#E31C1C"
+        android:textColor="@color/teal_700"
         android:textSize="25sp"
         android:text="Game xu huong"/>
     <androidx.recyclerview.widget.RecyclerView

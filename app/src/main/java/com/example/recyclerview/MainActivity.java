@@ -30,30 +30,25 @@ public class MainActivity extends AppCompatActivity {
     private List<Category> getListcategory(){
         List<Category> listCategory = new ArrayList<>();
         List<Game>  gameArrayList = new ArrayList<>();
-        gameArrayList.add(new Game("CS Go",R.drawable.csgo,"Game ban sung"));
-        gameArrayList.add(new Game("Lien Minh",R.drawable.lmht,"Game ban sung"));
-        gameArrayList.add(new Game("Fifa online 4",R.drawable.ffo,"Game da bong"));
-        gameArrayList.add(new Game("Lien quan mobile",R.drawable.lq,"Game chien thuat"));
-        gameArrayList.add(new Game("Minecraft",R.drawable.mig,"Game phieu luu"));
-        gameArrayList.add(new Game("Pubg",R.drawable.pubg,"Game ban sung"));
-        gameArrayList.add(new Game("Free Fire",R.drawable.ff,"Game ban sung"));
-        gameArrayList.add(new Game("Gta 5",R.drawable.gta,"Game kham pha"));
-        gameArrayList.add(new Game("Warcraft",R.drawable.warcraft,"Game phieu luu"));
-        gameArrayList.add(new Game("CS Go",R.drawable.csgo,"Game ban sung"));
-        gameArrayList.add(new Game("Lien Minh",R.drawable.lmht,"Game ban sung"));
-        gameArrayList.add(new Game("Fifa online 4",R.drawable.ffo,"Game da bong"));
-        gameArrayList.add(new Game("Lien quan mobile",R.drawable.lq,"Game chien thuat"));
-        gameArrayList.add(new Game("Minecraft",R.drawable.mig,"Game phieu luu"));
-        gameArrayList.add(new Game("Pubg",R.drawable.pubg,"Game ban sung"));
+        gameArrayList.add(new Game("Asphalt 8",R.drawable.asphalt,"Game mien phi"));
+        gameArrayList.add(new Game("Pikachu",R.drawable.pikachu,"Game offline"));
+        gameArrayList.add(new Game("Candy Crush Saga",R.drawable.candy,"Game da bong"));
+        gameArrayList.add(new Game("Subway Surfers",R.drawable.subway,"Game offline"));
+        gameArrayList.add(new Game("Asphalt 8",R.drawable.asphalt,"Game mien phi"));
+        gameArrayList.add(new Game("Pikachu",R.drawable.pikachu,"Game offline"));
+        gameArrayList.add(new Game("Candy Crush Saga",R.drawable.candy,"Game da bong"));
+        gameArrayList.add(new Game("Subway Surfers",R.drawable.subway,"Game offline"));
+        gameArrayList.add(new Game("Asphalt 8",R.drawable.asphalt,"Game mien phi"));
+        gameArrayList.add(new Game("Pikachu",R.drawable.pikachu,"Game offline"));
+        gameArrayList.add(new Game("Candy Crush Saga",R.drawable.candy,"Game da bong"));
+        gameArrayList.add(new Game("Subway Surfers",R.drawable.subway,"Game offline"));
+
         listCategory.add(new Category("Game de xuat",gameArrayList));
-        listCategory.add(new Category("Game chien thuat",gameArrayList));
-        listCategory.add(new Category("Game ban sung",gameArrayList));
-        listCategory.add(new Category("Game ban sung",gameArrayList));
-        listCategory.add(new Category("Game sing ton",gameArrayList));
-        listCategory.add(new Category("Game chien thuat",gameArrayList));
-        listCategory.add(new Category("Game ban sung",gameArrayList));
-        listCategory.add(new Category("Game ban sung",gameArrayList));
-        listCategory.add(new Category("Game sinh ton",gameArrayList));
+        listCategory.add(new Category("Game Offline",gameArrayList));
+        listCategory.add(new Category("Game Online",gameArrayList));
+        listCategory.add(new Category("Game mien phi",gameArrayList));
+        listCategory.add(new Category("Game tra phi",gameArrayList));
+
         return listCategory;
     }
     }
